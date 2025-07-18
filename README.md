@@ -26,3 +26,16 @@ F1 Scores of Line, Arc, Circle and Extrusion using the method proposed in CAD-SI
 Chamfer Distance (CD) measures geometric alignment between the ground truth and reconstructed CAD models of Text2CAD and DeepCAD.
 Invality Ratio (IR) Measures the invalidity of the reconstructed CAD models.
 Visual Inspection: We compare the performance of Text2CAD and DeepCAD with GPT-4 and Human evaluation.
+
+
+# Citations (reformat later)
+@Inproceedings{khan2024textcad,
+title={Text2CAD: Generating Sequential {CAD} Designs from Beginner-to-Expert Level Text Prompts},
+author={Mohammad Sadil Khan and Sankalp Sinha and Sheikh Talha Uddin and Didier Stricker and Sk Aziz Ali and Muhammad Zeshan Afzal},
+booktitle = {Advances in Neural Information Processing Systems},
+pages = {7552--7579},
+publisher = {Curran Associates, Inc.},
+year={2024},
+volume = {37},
+url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/0e5b96f97c1813bb75f6c28532c2ecc7-Paper-Conference.pdf},
+} 
