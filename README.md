@@ -20,6 +20,9 @@ State: Representing the current CAD model (geometry, parameters, stress maps, et
 Action: Modifications (changing wall thickness, repositioning beam, etc.)
 Reward: Based on prompt alignment, FEA results, CLIP/DPO scores
 
-# Evaluation: 
-Compare against Text2CAD and other rl-free variants to validate architecture
-Improve model, etc.
+# Evaluation (Similar to Text2Cad): 
+CAD Sequence Evaluation: We assess the parametric correspondence between the generated CAD sequences with the input texts. This is done using the following metrics:
+F1 Scores of Line, Arc, Circle and Extrusion using the method proposed in CAD-SIGNet.
+Chamfer Distance (CD) measures geometric alignment between the ground truth and reconstructed CAD models of Text2CAD and DeepCAD.
+Invality Ratio (IR) Measures the invalidity of the reconstructed CAD models.
+Visual Inspection: We compare the performance of Text2CAD and DeepCAD with GPT-4 and Human evaluation.
