@@ -1,0 +1,3 @@
+[submodule "Text2CAD"]
+	path = Text2CAD
+	url = https://github.com/SadilKhan/Text2CAD.git
