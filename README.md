@@ -1,3 +1,5 @@
+Update: Currently implementing https://arxiv.org/pdf/2003.12397, https://arxiv.org/pdf/2502.20732, and https://arxiv.org/pdf/2506.05573 for a completed mesh reconstruction pipeline, and eventual CAD implementation as well
+
 # Generating Structurally Aware Physics CAD Sequences:
 
 # Datasets:
