@@ -1,7 +1,7 @@
 # 128x128 grayscale depth map generated for OBJ model
 import open3d as o3d
 import numpy as np
-import mesh_to_depth as m2d # fix version control issue
+import mesh_to_depth as m2d # TODO: fix version control issue
 import matplotlib.pyplot as plt
 
 mesh = o3d.io.read_triangle_mesh("model_normalized.obj")
